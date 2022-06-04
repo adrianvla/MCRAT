@@ -23,23 +23,23 @@ public String onlyrunners[] = new String[]{YOUR_PLAYER_NAME};
   You see what commands / messages other players type, like Command Spy
 ### :reloadserver
   Reloads Server
-### :giveaccess <playername>
+### :giveaccess playername
   Gives Access to MCRAT to other players (per server session only)
-### :revokeaccess <playername>
+### :revokeaccess playername
   Removes Access to MCRAT to other players (per server session only)
-### :disableplugin <pluginname>
+### :disableplugin pluginname
   Disables A Plugin (like if you removed it's file from the server directory)
-### :enableplugin <pluginname>
+### :enableplugin pluginname
   Enables a plugin
 ### :plugins
   Lists all avaible plugins (the red ones are disabled, the green ones are enabled)
 ### :status
   Lists the status of all toggleable commands
-### :op <playername>
+### :op playername
   Ops someone
-### :deop <playername>
+### :deop playername
   Deops someone
-### :exec <command>
+### :exec command
   Executes that command from Console
-### :sudo <player> <chatmessage>
+### :sudo player chatmessage
   Forces a player to say the chatmessage. If the chat message is something like /..., it'll be executed as a command
