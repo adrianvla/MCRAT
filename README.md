@@ -1,4 +1,4 @@
-# Minecraft-backdoor-plugin called MCRAT
+# MCRAT
 For Spigot 1.17.1
 
 The ONCHAT.java file Is The backdoor itself
