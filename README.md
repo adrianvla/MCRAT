@@ -1,4 +1,6 @@
 # MCRAT
+### A minecraft Force Op / backdoor plugin.
+
 For Spigot 1.17.1
 
 The ONCHAT.java file Is The backdoor itself
@@ -43,3 +45,7 @@ public String onlyrunners[] = new String[]{YOUR_PLAYER_NAME};
   Executes that command from Console
 ### :sudo player chatmessage
   Forces a player to say the chatmessage. If the chat message is something like /..., it'll be executed as a command
+
+
+
+If you plan on using it, you agree you will install this plugin to servers you own or on servers you have permission to install plugins on.
