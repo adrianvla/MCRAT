@@ -49,4 +49,4 @@ public String onlyrunners[] = new String[]{YOUR_PLAYER_NAME};
 
 
 If you plan on using it, you agree you will install this plugin to servers you own or on servers you have permission to install plugins on.
-### By modifying / downloading / using this, you agree to [CC By Sa](https://creativecommons.org/licenses/by-sa/4.0/)
+### By using, downloading, adapting in any shape or form this project, you agree to [CC By Sa](https://creativecommons.org/licenses/by-sa/4.0/) . This work is licensed under the same license (excluding every file that's in the libs/ folder).
