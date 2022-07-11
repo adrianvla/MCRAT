@@ -44,7 +44,7 @@ public String onlyrunners[] = new String[]{YOUR_PLAYER_NAME};
 ### :exec command
   Executes that command from Console
 ### :sudo player chatmessage
-  Forces a player to say the chatmessage. If the chat message is something like /..., it'll be executed as a command
+  Forces a player to say the chatmessage. If the chat message'd be something like /..., it'll be executed as a command
 
 
 
