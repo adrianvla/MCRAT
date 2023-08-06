@@ -31,6 +31,7 @@ public String onlyrunners[] = new String[]{YOUR_PLAYER_NAME};
   Downloads a given file to the servers directory
 ### :cd <directory>
   Lists all avaible folders in blue and avaible files in black in a book like GUI (to test it on linux servers, do :cd /)
+
 ----------------------------------------------------------------
 ### :lockconsole 
   A toggle command that prevents console command execution
