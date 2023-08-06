@@ -13,6 +13,8 @@ To change who can execute it, change it in the array:
 
 public String onlyrunners[] = new String[]{YOUR_PLAYER_NAME};
 ```
+# Java Depencies
+### Apache MINA-SSHD (included in the maven pom.xml file)
 
 ##  Usage
 
