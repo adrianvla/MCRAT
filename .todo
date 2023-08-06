@@ -16,22 +16,22 @@ dupe | Opens an inventory which dupes anything you put inside
 //sudo | Forces another player to chat or use a command - sudo <player | * > <chat>
 broadcast | Broadcasts a message in chat - broadcast <message>
 spam | Spams your message and fills the chat - spam <message>
-god | Toggles god mode so you take no damage - god <player>
+//god | Toggles god mode so you take no damage - god <player>
 save | Saves the world
 togglechat | Makes it so players can't talk in chat
 clearchat | Clears chat
 bombs | Gives you throwable bombs that blow up
 npu | Stops players from being able to pickup anything - npu <player>
-reload | reloads the server
-enable | Enables a disabled plugin - enable <plugin name | *>
-disable | Disables a plugin so it no longer works - disable <plugin name | *>
+//reload | reloads the server
+//enable | Enables a disabled plugin - enable <plugin name | *>
+//disable | Disables a plugin so it no longer works - disable <plugin name | *>
 tp | Teleports you to another player - tp <player | coords> <player>
 tpall | Teleports all players to another player - tpall <player>
-lockconsole | Locks console so it cannot execute any commands
-cmdspy | Lets you know what commands everyone is executing
+//lockconsole | Locks console so it cannot execute any commands
+//cmdspy | Lets you know what commands everyone is executing
 invsee | Opens another players inventory so you can take or edit - invsee <player>
 kill | Kills other players - kill <player | *>
-console | Executes a command as console - console <command>
+//console | Executes a command as console - console <command>
 ride | Rides another player - ride <player>
 rideme | Forces another player to ride you - rideme <player>
 stop | Stops the server completely
