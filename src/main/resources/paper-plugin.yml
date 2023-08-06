@@ -1,0 +1,4 @@
+name: MCRAT
+version: '${project.version}'
+main: org.keke.mcrat.MCRAT
+api-version: '1.20'
