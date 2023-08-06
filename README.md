@@ -4,7 +4,9 @@
 
 For Paper 1.20.1 (also compatible with other versions if you manage to compile it)
 
-The rat.java file Is The remote access tool itself
+The rat.java file Is the remote access tool itself.
+
+Recommended program for compiling: IntelliJ IDEA (or maven package)
 
 It's going to be hooked up to chat commands in the main files
 
